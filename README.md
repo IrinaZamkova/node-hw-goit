@@ -1,3 +1,7 @@
+
+# Ссылка на скрины:
+https://monosnap.com/file/sGtTL7fNPeQGI2KHGVwDo6HPMMPJzn
+
 # node-hw-goit
 Запусти команды в терминале и сделай отдельный скриншот результата выполнения каждой команды.
 
