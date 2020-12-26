@@ -1,0 +1,28 @@
+{
+  "name": "01-node-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrinaZamkova/01-node-basics.git"
+  },
+  "keywords": [],
+  "author": "Iryna_Zamkova <iravin@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrinaZamkova/01-node-basics/issues"
+  },
+  "homepage": "https://github.com/IrinaZamkova/01-node-basics#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
+}
