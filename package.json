@@ -1,0 +1,30 @@
+{
+  "name": "02-express",
+  "version": "1.0.0",
+  "description": "Домашнее задание 2\r Создай ветку 02-express из ветки master.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrinaZamkova/node-hw-goit.git"
+  },
+  "keywords": [],
+  "author": "Iryna_Zamkova <iravin@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrinaZamkova/node-hw-goit/issues"
+  },
+  "homepage": "https://github.com/IrinaZamkova/node-hw-goit#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^17.3.0",
+    "morgan": "^1.10.0"
+  }
+}
