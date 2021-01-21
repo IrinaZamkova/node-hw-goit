@@ -6,7 +6,7 @@ const contactRouter = require("./contact/contact.ruoter");
 dotenv.config();
 const DB_NAME = process.env.DB_NAME;
 const DB_PASSWORD = process.env.DB_PASSWORD;
-const MONGO_URL = `mongodb+srv://admin:QbbhFYg3tEoFnp7X@cluster0.tnqp4.mongodb.net/db-contacts?retryWrites=true&w=majority`;
+const MONGO_URL = `mongodb+srv://admin:${DB_PASSWORD}@cluster0.tnqp4.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
 
 const PORT = process.env.PORT || 3000;
 let contacts;
